@@ -1,8 +1,3 @@
-* {
-    max-width: 100vw;
-    /* Empêche tout de dépasser */
-}
-
 body {
     overflow-x: hidden;
     margin: 0;
@@ -174,7 +169,6 @@ body {
 .check {
     position: absolute;
     bottom: 15px;
-    /* espace du bas du bloc blanc */
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 25px;
@@ -200,9 +194,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    /* espace horizontal entre les logos */
     background-color: #FFFFFF;
-    /* ton fond bleu */
     padding: 40px 0;
 }
 
@@ -230,6 +222,7 @@ body {
     background-color: #ffffff;
     box-sizing: border-box;
     position: relative;
+    top: 3500px;
 }
 
 .biglogo {
@@ -430,7 +423,6 @@ body {
 .stats {
     width: 100%;
     height: 200px;
-    /* background-color: #ffffff; */
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -438,6 +430,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 110px;
+    margin-top: 120px;
 }
 
 .main1 {
@@ -456,36 +449,9 @@ body {
     width: 150px;
     height: 50px;
     position: relative;
-}
-
-
-.serv {
-    margin: 50px;
-    display: grid;
-    gap: 5px;
     margin-left: 135px;
-    height: 500px;
-    grid-template-rows: auto auto;
-    grid-template-columns: 50%;
-    position: relative;
+    margin-top: 100px;
 }
-
-.ourservicesleft {
-    grid-column: 1;
-}
-
-
-.ourservicesright {
-    grid-column: 2;
-    margin-top: 60px;
-    font-size: 18px;
-}
-
-.ourservicesright p {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
-
 
 .service1 {
     background: white;
@@ -494,81 +460,104 @@ body {
     border-radius: 20px;
 }
 
-.service1 h1 {
-    color: #2677BC;
-}
-
-.service1 p {
-    color: black;
-}
 
 .service1 button {
     color: #FF6F61;
 }
 
-.service1 img,h1,p,button {
+.service1 img,
+h1,
+p,
+button {
     margin-top: 30px;
     margin-left: 30px;
 }
 
-.more button {
+.servicesimg button {
     border: 1px solid #FF6F61;
     background: none;
     height: 50px;
-    width: 200px;
-    font-size: 20px;
+    width: 150px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-items: center;
     justify-content: center;
     border-radius: 20px;
-}
-
-.more img {
-    display: flex;
-    margin-bottom: 30px;
+    color: #FF6F61;
 }
 
 .serv {
-    display: flex;              /* gauche + droite côte à côte */
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
     margin-top: 50px;
-    margin-left: 80px;          /* ajuste selon ton design */
+    margin-left: 80px;
     margin-right: 80px;
     box-sizing: border-box;
 }
 
-/* bloc gauche (ourservicesleft) */
-.ourservicesleft {
-    width: 65%;                 /* prend 2/3 de la largeur */
+.test1 {
+    margin-left: 134px;
+    font-family: 'Montserrat', sans-serif;
+    grid-column: 1;
 }
 
-/* bloc droite (ourservicesright) */
-.ourservicesright {
-    width: 30%;                 /* prend environ 1/3 */
-    margin-top: 80px;           /* ajuste verticalement si besoin */
+.test2{
+    font-family: 'Montserrat',sans-serif;
+    grid-column:2;
+    margin-left: 700px;
+    margin-top: -105px;
+    position: absolute;
+    color:#000000;
+}
+.test {
+    grid-template-columns: 50% 50%;
 }
 
-/* grille de 6 services : 3 colonnes */
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-top: 25px;
-}
-
-/* chaque carré (service1) */
-.service1 {
-    background-color: white;
-    border-radius: 15px;
-    width: 260px;               /* taille fixe propre */
-    height: 260px;
-    padding: 15px;
-    box-sizing: border-box;
-    border: 1px solid #e0e0e0;
+.differentservices{
+    margin-left: 130px;
+    margin-top: 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    gap: 130px;
+}
+.servicesimg{
+    width: 250px;
+    height: 250px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+.servicesimg h1{
+    color: #2677BC;
+    margin-top: -1px;
+    font-size: 28px;
+}
+.servicesimg p{
+    color:#000000;
+}
+
+.moreservices img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 565px;
+}
+
+.ourdoctors {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5EE088;
+    border: 1px solid #00FF6C;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    margin-left: 560px;
+    margin-top: 100px;
+}
+
+.doc{
+
+
 }
