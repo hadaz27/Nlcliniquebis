@@ -553,7 +553,7 @@ button {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: #5EE088;
-    border: 1px solid #00FF6C;
+    border: solid #00FF6C 2px;
     text-align: center;
     width: 150px;
     height: 50px;
@@ -615,4 +615,9 @@ button {
     margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+}
+
+.moreplan {
+    margin-top: 50px;
+    margin-left: 535px;
 }
