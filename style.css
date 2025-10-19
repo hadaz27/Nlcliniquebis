@@ -171,8 +171,6 @@ body {
 .check {
     position: absolute;
     bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 10px 25px;
     border-radius: 9999px;
     border: none;
@@ -180,6 +178,7 @@ body {
     border: 2px solid red;
     color: white;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 .opening {
@@ -736,4 +735,8 @@ label {
     cursor: pointer;
     margin-top: 37px;
     color: grey;
+}
+
+.servicesimg button{
+    margin-left: 45px;
 }
