@@ -29,64 +29,66 @@
             </nav>
         </div>
     </header>
-    <div class="bookappointment">
-        <p>Book An Appointement</p>
-    </div>
-    <!-- partie contact us/prendre rdv -->
-    <div class="bouk">
-        <h1>Book Your Appointment By Filling This Form Below</h1>
-    </div>
-    <!-- Formulaire pour prendre rdv -->
-    <div class="form">
-        <div class="row">
-            <div>
-                <label for="name">Name</label>
-                <input type="text" name="name" placeholder="Input Name">
+    <main>
+        <div class="bookappointment">
+            <p>Book An Appointement</p>
+        </div>
+        <!-- partie contact us/prendre rdv -->
+        <div class="bouk">
+            <h1>Book Your Appointment By Filling This Form Below</h1>
+        </div>
+        <!-- Formulaire pour prendre rdv -->
+        <div class="form">
+            <div class="row">
+                <div>
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Input Name">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Input Email">
+                </div>
             </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="text" name="email" placeholder="Input Email">
+            <div class="row">
+                <div>
+                    <label>Doctor Type</label>
+                    <select>
+                        <option value="" disabled selected>Choose Doctor Type</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Doctor Name</label>
+                    <select>
+                        <option value="" disabled selected>Choose Doctor Name</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label>Choose Date</label>
+                    <select>
+                        <option value="" disabled selected>Choose Date</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Time</label>
+                    <select>
+                        <option value="" disabled selected>Choose Time</option>
+                    </select>
+                </div>
+            </div>
+            <div class="full1">
+                <label style="margin-top: -23px;">Description</label>
+                <input type="text" name="description" placeholder="Enter a description">
+            </div>
+            <div class="full">
+                <div class="send">
+                    <span>Send</span>
+                    <img src="images/lafleche.png" alt="right arrow" width="30" height="30">
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div>
-                <label for="Choose Doctor Type">Doctor Type</label>
-                <select>
-                    <option value="" disabled selected>Choose Doctor Type</option>
-                </select>
-            </div>
-            <div>
-                <label for="Choose Doctor Name">Doctor Name</label>
-                <select>
-                    <option value="" disabled selected>Choose Doctor Name</option>
-                </select>
-            </div>
-        </div>
-        <div class="row">
-            <div>
-                <label for="Choose Date">Choose Date</label>
-                <select>
-                    <option value="" disabled selected>Choose Date</option>
-                </select>
-            </div>
-            <div>
-                <label for="Choose Time">Time</label>
-                <select>
-                    <option value="" disabled selected>Choose Time</option>
-                </select>
-            </div>
-        </div>
-        <div class="full1">
-            <label style="margin-top: -23px;">Description</label>
-            <input type="text" name="description" placeholder="Enter a description">
-        </div>
-        <div class="full">
-            <div class="send">
-                <span>Send</span>
-                <img src="images/lafleche.png" alt="right arrow" width="30px" height="30px">
-            </div>
-        </div>
-    </div>
+    </main>
     <footer class="footer1">
         <div class="biglogo">
             <img src="images/biglogo.png" alt="NLClinique">
@@ -101,14 +103,14 @@
             </div>
         </div>
         <div class="socialmedias">
-            <img src="images/whatsapp.png">
-            <img src="images/facebook.png">
-            <img src="images/instagram.png">
+            <img src="images/whatsapp.png" alt="whatsapp">
+            <img src="images/facebook.png" alt="fb">
+            <img src="images/instagram.png" alt="insta">
         </div>
         <div class="links">
             <div>
                 <ul>
-                    <h3 style="color:#2677BC">Quick Links</h3>
+                    <li style="font-weight:bold; color:#2677BC;font-size: 20px;">Quick Links</li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
                     <li>Portfolio</li>
@@ -117,7 +119,7 @@
             </div>
             <div>
                 <ul>
-                    <h3 style="color:#2677BC">Work Category</h3>
+                    <li style="font-weight:bold; color:#2677BC;font-size: 20px;">Work Category</li>
                     <li>Architecture</li>
                     <li>Nature</li>
                     <li>Modelling</li>
@@ -127,7 +129,7 @@
             </div>
             <div>
                 <ul>
-                    <h3 style="color:#2677BC">Legal</h3>
+                    <li style="font-weight:bold; color:#2677BC;font-size: 20px;">Legal</li>
                     <li>Return Policy</li>
                     <li>Shipping Policy</li>
                     <li>Privacy Policy</li>

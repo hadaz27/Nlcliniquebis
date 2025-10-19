@@ -223,7 +223,7 @@ body {
     height: 450px;
     background-color: #ffffff;
     position: relative;
-    top: 4600px;
+    margin-top: 50px;
 }
 
 .biglogo {
@@ -237,6 +237,7 @@ body {
     height: 40px;
     border-radius: 9999px;
     border: 1px solid #3497DB;
+    margin-left: 25px;
 }
 
 .emailbutton p {
@@ -255,7 +256,7 @@ body {
     border: 1px solid #3497DB;
     width: 100px;
     height: 40px;
-    margin-left: 275px;
+    margin-left: 290px;
     bottom: 70px;
 }
 
@@ -271,7 +272,7 @@ body {
 .socialmedias {
     display: flex;
     gap: 30px;
-    margin-left: 28px;
+    margin-left: 55px;
     margin-top: 150px;
 }
 
@@ -286,8 +287,9 @@ body {
     position: absolute;
     display: flex;
     gap: 60px;
-    margin-left: 500px;
+    margin-left: 600px;
     bottom: 180px;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .links li {
@@ -300,7 +302,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #2677BC;
     bottom: 50px;
-    left: 540px;
+    left: 640px;
 }
 
 .location p {
@@ -550,8 +552,8 @@ button {
 
 .moreservices img {
     position: absolute;
-    margin-top: 30px;
-    margin-left: 565px;
+    margin-top: 65px;
+    margin-left: 550px;
 }
 
 .ourdoctors {
@@ -566,6 +568,7 @@ button {
     position: relative;
     margin-left: 560px;
     margin-top: 10px;
+    font-family: 'Montserra',sans-serif;
 }
 
 .differentsdoctors {
@@ -707,7 +710,6 @@ label {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 9999px;
-    margin-top: 44px;
     gap: 20px;
 }
 
@@ -733,4 +735,5 @@ label {
     background-color: white;
     cursor: pointer;
     margin-top: 37px;
+    color: grey;
 }
