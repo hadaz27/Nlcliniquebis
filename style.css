@@ -98,6 +98,7 @@ body {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 9999px;
+    margin-top: 44px;
 }
 
 #p1 {
@@ -123,7 +124,7 @@ body {
 
 .horloge {
     position: absolute;
-    top: 580px;
+    top: 595px;
     left: 60px;
 }
 
@@ -164,6 +165,7 @@ body {
 .para {
     color: grey;
     font-size: 12px;
+    margin-bottom: 30px;
 }
 
 .check {
@@ -183,13 +185,13 @@ body {
 .opening {
     position: absolute;
     font-size: 15px;
-    left: 170px;
+    left: 140px;
     top: 567px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .partners {
-    margin-top: 278px;
+    margin-top: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +222,6 @@ body {
     width: 100%;
     height: 450px;
     background-color: #ffffff;
-    box-sizing: border-box;
     position: relative;
     top: 4000px;
 }
@@ -255,7 +256,7 @@ body {
     width: 100px;
     height: 40px;
     margin-left: 275px;
-    bottom: 45px;
+    bottom: 70px;
 }
 
 .stile {
@@ -302,6 +303,10 @@ body {
     left: 540px;
 }
 
+.location p{
+    color:#969696;
+    margin-left: -1px;
+}
 .links a {
     text-decoration: none;
     color: inherit;
@@ -357,7 +362,7 @@ body {
 }
 
 .twenty {
-    margin-left: 25px;
+    margin-left: 40px;
     position: relative;
     font-weight: bold;
     font-size: 35px;
@@ -367,7 +372,7 @@ body {
     position: relative;
     text-align: center;
     font-weight: bold;
-    bottom: 15px;
+    bottom: 30px;
     font-size: 20px;
 }
 
@@ -503,6 +508,7 @@ button {
 .test1 {
     font-family: 'Montserrat', sans-serif;
     grid-column: 1;
+    margin-left: 133px;
 }
 
 .test2 {
@@ -620,4 +626,17 @@ button {
 .moreplan {
     margin-top: 50px;
     margin-left: 535px;
+}
+
+.footer1 {
+    grid-area: footer;
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff;
+    position: relative;
+    top: 30px;
+}
+
+.doctorsimg p{
+    margin-right: 30px;
 }
