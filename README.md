@@ -1,1 +1,1 @@
-Voici la premiere etape de la creation du site web : le maquettage des futures pages.
+Bonjour, je vous présente mon projet,dont le but etait maquetter des interface utilsateur,pour ensuite les implémenter en html/css.
